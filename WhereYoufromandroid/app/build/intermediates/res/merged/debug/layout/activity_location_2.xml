@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity" >
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:id="@+id/map"
+        tools:context="com.example.karthikslaptop.wuatest1.Location_2"
+        android:name="com.google.android.gms.maps.SupportMapFragment" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:id="@+id/Btn2"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="22dp"
+        android:onClick="Continue"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/EmailBox"
+        android:layout_alignEnd="@+id/EmailBox" />
+</FrameLayout><!-- From: file:/C:/Users/Karthik's%20Laptop/FINAL%20SUBMISSION/app/src/main/res/layout/activity_location_2.xml -->

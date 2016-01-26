@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:backgroundTint="#7dffee00"
+    android:backgroundTintMode="src_in"
+    android:background="#7dffee00"
+    android:id="@+id/Size">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView10"
+        android:textSize="35dp"
+        android:text="Places"
+        android:background="#85b3f4" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </ListView>
+
+</LinearLayout>

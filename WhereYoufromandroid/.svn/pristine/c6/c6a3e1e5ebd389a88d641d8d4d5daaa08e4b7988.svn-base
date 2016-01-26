@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:backgroundTintMode="src_atop"
+    android:id="@+id/R"
+    android:backgroundTint="#f9f5f5">
+
+    <ImageView
+        android:id="@+id/img_question_view1"
+        android:layout_width="1000dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:scaleType="fitXY"
+        android:src="@drawable/background"
+        android:layout_above="@+id/Btn3"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/Btn3"
+        android:background="#71f2ea15"
+        android:width="150dp"
+        android:visibility="visible"
+        android:layout_above="@+id/Btn1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/Btn1"
+        android:background="#71f2ea15"
+        android:width="150dp"
+        android:onClick="sendMessaage"
+        android:layout_marginBottom="19dp"
+        android:visibility="visible"
+        android:layout_above="@+id/switch1"
+        android:layout_alignLeft="@+id/Btn3"
+        android:layout_alignStart="@+id/Btn3" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:background="#71f2ea15"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:backgroundTintMode="src_atop" />/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Where You From"
+        android:id="@+id/textView"
+        android:textStyle="bold"
+        android:textSize="40dp"
+        android:textColor="#f2000000"
+        android:layout_marginBottom="134dp"
+        android:textIsSelectable="false"
+        android:layout_above="@+id/Btn3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

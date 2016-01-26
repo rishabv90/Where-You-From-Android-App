@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".NewsApp"
+    android:background="#0003bc">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="114dp"
+        android:id="@+id/layout">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SAVED FOR LATER"
+            android:id="@+id/radioButton4"
+            android:checked="false"
+            android:textSize="37.5dp"
+            android:background="#735586"
+            android:textColor="#ffffff" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DELETED"
+            android:id="@+id/radioButton5"
+            android:checked="false"
+            android:textSize="40dp"
+            android:background="#af2194"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIKED"
+            android:id="@+id/radioButton3"
+            android:checked="false"
+            android:textSize="40dp"
+            android:background="#ffbc65"
+            android:textColor="#fcffffff"
+            android:layout_above="@+id/radioButton5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="52dp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECOMMEND"
+            android:id="@+id/radioButton2"
+            android:checked="false"
+            android:textSize="40dp"
+            android:background="#8badff"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TODAY"
+            android:id="@+id/radioButton"
+            android:checked="false"
+            android:textSize="40dp"
+            android:background="#2bbe2d"
+            android:textColor="#ffffff"
+            android:layout_below="@+id/radioButton4"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="36dp" />
+    </RelativeLayout>
+
+</RelativeLayout><!-- From: file:/C:/Users/Karthik's%20Laptop/FINAL%20SUBMISSION/app/src/main/res/layout/activity_newsapp.xml -->
